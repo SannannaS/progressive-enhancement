@@ -1,0 +1,29 @@
+.GOOD{
+    color:green;
+}
+
+.BAD{
+    color:red;
+}
+
+body{
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: url("../img/chinese farm.jpg") no-repeat bottom right rgba(200,200,200,20);
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+blockquote{
+    width:50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 160%;
+    background-color: #bac7d6;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
