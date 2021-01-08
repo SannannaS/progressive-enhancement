@@ -1,12 +1,24 @@
 .GOOD{
     color:green;
 }
-
 .BAD{
     color:red;
 }
+h1{
+    text-align: center;
+    background-color: yellow;
+}
+
+img{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
 
 body{
+    font-family: 'Open Sans', sans-serif;
     width: 90%;
     margin-left: 10%;
     margin-right: 10%;
@@ -26,4 +38,22 @@ blockquote{
     padding-right: 30px;
     padding-bottom: 80px;
     padding-top: 80px;
+}
+
+.row-uneven{
+    background-color: grey;
+}
+.row-even{
+    background-color: white;
+}
+.notification {
+    background: #FFFFDD;
+    padding: .5rem 1rem;
+    border: 3px solid #DDDDCC;
+    width: 250px;
+    font-weight: bold;
+    color: #333300;
+    position:fixed;
+    bottom:10px;
+    right:10px;
 }
